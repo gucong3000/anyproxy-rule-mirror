@@ -1,0 +1,40 @@
+{
+  "name": "anyproxy-rule-mirror",
+  "version": "0.0.1",
+  "description": "anyproxy rule for redirect to mirrors in China",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "eslint .",
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gucong3000/anyproxy-rule-mirror.git"
+  },
+  "keywords": [
+    "anyproxy",
+    "mirror",
+    "proxy",
+    "npm",
+    "github"
+  ],
+  "author": "gucong3000",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gucong3000/anyproxy-rule-mirror/issues"
+  },
+  "homepage": "https://github.com/gucong3000/anyproxy-rule-mirror#readme",
+  "devDependencies": {
+    "anyproxy": "^4.0.4",
+    "eslint": "^4.15.0",
+    "eslint-config-standard": "^11.0.0-beta.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1"
+  },
+  "dependencies": {
+    "fs-extra": "^5.0.0",
+    "nugget": "^2.0.1"
+  }
+}
